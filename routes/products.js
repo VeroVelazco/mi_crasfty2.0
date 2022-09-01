@@ -7,7 +7,7 @@ const {uploadProducts} = require('../middlewares/uploadFiles')
 /* /products */
 router
     .get('/add', add)
-    .post('/add', store) // iamge es el name del formulario
+    .post('/add', uploadProducts.array('images'),store) // iamge es el name del formulario
     .get('/detail/:id', detail) 
     .get('/edit/:id', edit) // .id porque me muestra el producto y los datos del producto que pido (renderiza el formulario)
     .put('/update/:id', update)  // envia la informacion 

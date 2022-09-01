@@ -8,7 +8,7 @@ router
   .get('/register', register ) //  http://user/register
   .get('/login', login)      //  http://user/login
   .get('/profile', profile)  //  http://user/profile
-  .put('/update/:id')              
+  .put('/update/:id', uploadUsers.single('avatar'), update)              
 
 
 module.exports = router;

@@ -30,7 +30,7 @@ module.exports = {
             name: name.trim(), //quita los espacios en blanco 
             price: +price, // (+) parsea el string a number
             discount: +discount,
-            image : product.image
+            image : product.images
         }
 
 
@@ -74,7 +74,7 @@ module.exports = {
                     brand,
                     category,
                     section,
-                    image : product.image
+                    
 
                 }
             }
