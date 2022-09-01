@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<%- include('./partials/head',{ title : 'Agregar producto' })%>
+
+    <body class="">
+        <%- include('./partials/header')%>
+            <main class="register__main">
+                <section class="register__main__section general__main__section">
+                    <h1 class="form__title">Agregar Producto</h1>
+                    <!-- cuando el action esta vacio el formulario vuelve por donde vino en este caso vueklve por post-->
+                    <form action="" class="row" method="POST" enctype="multipart/form-data">
+                        <div class="col-12 col-md-6 mb-3">
+                            <label for="name" class="Form-Label">Nombre</label>
+                            <input class="form__control" type="text" id="name" name="name">
+                        </div>
+                        <div class="col-12 col-md-6 mb-3">
+                            <label for="price" class="Form-Label">Precio</label>
+                            <input class="form__control" type="number" id="price" name="price">
+                        </div>
+                        <div class="col-12 col-md-6 mb-3">
+                            <label for="discount" class="Form-Label">Descuento</label>
+                            <input class="form__control" type="number" id="discount" name="discount">
+                        </div>
+                        <div class="col-12 col-md-6 mb-3">
+                            <label for="brand" class="form-label">Marca</label>
+                            <select class="form-select" aria-label="Default select exapmle" id="brand" name="brand">
+                                <option value="" selected hidden> Seleccione...</option>
+                                <% brands.forEach(brand => { %>
+                                    <option value="<%= brand %>"><%= brand %> </option>
+                                <% }) %>
+                             </select>
+
+                        </div>
+                        <div class="col-12 col-md-6 mb-3">
+                            <label for="category" class="form-label">Catregoria</label>
+                            <select class="form-select" aria-label="Default select exapmle" id="category" name="category">
+                                <option selected hidden value="">Seleccione...</option>
+                                <option value="alta">Alta</option>
+                                <option value="media">Baja</option>
+                                <option value="baja">Media</option>
+                            </select>
+
+                        </div>
+                        <div class="col-12 col-md-6 mb-3">
+                            <label for="section" class="form-label">Sección</label>
+                            <select class="form-select" aria-label="Default select exapmle" id="section" name="section">
+                                <option selected hidden value="">Seleccione...</option>
+                                <option value="popular">Popular</option>
+                                <option value="temporada">Temporada</option>
+                            </select>
+
+                        </div>
+
+                        <div class="col-12 col-md-6 mb-3">
+                            <label for="image" class="form-label">imagenes</label>
+                           <input id="image" type="file" name="images" class="form-control" multiple>
+
+                        </div>
+                        <div class="form__box form__box--flex">
+                            <a href="" class="form__button form__button--cancel">Cancelar</a>
+                            <button class="form__button form__button--send" type="submit">Guardar</button>
+                        </div>
+
+
+
+
+
+
+
+
+                    </form>
+                </section>
+            </main>
+    </body>
+
+</html>

@@ -1,0 +1,112 @@
+[
+   {
+      "id": 1,
+      "name": "Iphone 13",
+      "brand": "Apple",
+      "price": 250000,
+      "discount": 10,
+      "images": ["img-phone-01.jpg"],
+      "section": "temporada",
+      "category": "alta"
+   },
+   {
+      "id": 2,
+      "name": "Nokia 1100",
+      "brand": "Nokia",
+      "price": 200,
+      "discount": 10,
+      "images": ["img-phone-02.jpg"],
+      "section": "popular",
+      "category": "baja"
+   },
+   {
+      "id": 3,
+      "name": "Samsung S20",
+      "brand": "Samsung",
+      "price": 300,
+      "discount": 5,
+      "images": ["img-phone-03.jpg"],
+      "section": "popular",
+      "category": "alta"
+   },
+   {
+      "id": 4,
+      "name": "Xiaomi Redmi Notesss",
+      "brand": "Samsung",
+      "price": 250,
+      "discount": 5,
+      "images": ["img-phone-01.jpg"],
+      "section": "temporada",
+      "category": "media"
+   },
+   {
+      "id": 5,
+      "name": "Motorola X-Playstation",
+      "brand": "Motorola",
+      "price": 250,
+      "discount": 10,
+      "images": ["img-phone-01.jpg"],
+      "section": "temporada",
+      "category": "media"
+   },
+   {
+      "id": 6,
+      "name": "Motorola G5",
+      "brand": "Motorola",
+      "price": 150,
+      "discount": 20,
+      "images": ["img-phone-03.jpg"],
+      "section": "popular",
+      "category": "media"
+   },
+   {
+      "name": "Sony soy",
+      "price": 2500,
+      "discount": 25,
+      "brand": "Sony",
+      "category": "baja",
+      "section": "popular",
+      "id": 7,
+      "images": ["img-phone-01.jpg"]
+   },
+   {
+      "name": "ZTE 443",
+      "price": 2300,
+      "discount": 20,
+      "brand": "ZTE",
+      "category": "media",
+      "section": "popular",
+      "id": 8,
+      "images": ["img-phone-01.jpg"]
+   },
+   {
+      "id": 9,
+      "name": "mororo",
+      "price": 0,
+      "discount": 0,
+      "brand": "",
+      "category": "",
+      "section": "",
+      "images": ["img-phone-01.jpg"]
+   },
+   {
+      "id": 10,
+      "name": "mororo",
+      "price": 0,
+      "discount": 0,
+      "brand": "",
+      "category": "",
+      "section": "",
+      "images": ["img-phone-01.jpg"]
+   },
+   {
+      "id": 11,
+      "name": "moto moto",
+      "price": 1234,
+      "discount": 10,
+      "brand": "Motorola",
+      "category": "media",
+      "section": "temporada",
+      "images": ["img-phone-01.jpg"]
+   }
+]
